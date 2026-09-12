@@ -8,6 +8,11 @@
       "name": "business-analysis-starter",
       "description": "业务需求分析示例套件 / Business analysis starter",
       "source": "./suites/business-analysis-starter"
+    },
+    {
+      "name": "sinian-demand-forecast",
+      "description": "思念食品需求预测：业务语义、基线计算、质量复核 / Sinian demand forecast",
+      "source": "./suites/sinian-demand-forecast"
     }
   ]
 }

@@ -33,3 +33,11 @@ The manifest version is metadata, not an independent version lock. Configure mod
 Add future suites under `suites/` and register them in the root marketplace index. Component references must remain inside their suite directory.
 
 [简体中文](README.zh.md)
+
+## Sinian demand forecast suite
+
+Refresh the source and install `sinian-demand-forecast` (0.1.0); the starter suite remains available.
+It adds one forecasting role, three skills (scope, baseline, review), and the `forecast-demand` command. Use the actual catalog ID for role delegation.
+Supply customer/SKU data, target month, units, cutoff and rule confirmations; missing evidence produces a gap report rather than invented predictions.
+The user-supplied ontology V2 is pending business review. This is a draft forecasting toolkit with no live MCP connection, DMS writeback, automatic approval or role-level security isolation.
+See the [suite guide](suites/sinian-demand-forecast/README.md).
