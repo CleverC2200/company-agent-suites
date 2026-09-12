@@ -1,0 +1,8 @@
+{
+  "name": "business-analysis-starter",
+  "version": "0.1.0",
+  "description": "业务需求分析示例：角色、技能和命令 / Business requirements analysis starter",
+  "agents": "./agents",
+  "skills": "./skills",
+  "commands": "./commands"
+}

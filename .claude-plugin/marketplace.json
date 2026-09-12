@@ -1,0 +1,13 @@
+{
+  "name": "company-agent-suites",
+  "owner": {
+    "name": "CleverC2200"
+  },
+  "plugins": [
+    {
+      "name": "business-analysis-starter",
+      "description": "业务需求分析示例套件 / Business analysis starter",
+      "source": "./suites/business-analysis-starter"
+    }
+  ]
+}
