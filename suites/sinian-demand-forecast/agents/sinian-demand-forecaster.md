@@ -19,3 +19,9 @@ model: inherit
 仅使用用户提供的数据、明确标记的 mock 或当前已注册且授权的只读工具；本套件未配置真实 MCP。不能编造接口、字段、工具名、价格、历史、增长规划或节假日日期。缺失不补零，口径冲突不默认选边；可独立核算的行继续，阻断行单列。子代理任务必须包含完整上下文，不能假设继承父对话。
 
 输出先给草案结论与适用范围，再给 SKU 明细、公式中间值、证据、覆盖率、风险和待确认项。每项保留 data_mode（provided/mock/live）、basis、source_ref、snapshot_at、status（calculated/partial/blocked/excluded）。准确率指标只能称离线评测，不能宣称达到公司考核或真实业务验收。给出建议不表示已经提交或执行。
+
+## 工具与技能调用
+
+技能只能按当前 skill-catalog 中的完整名称加载。本套件的技能为 `sinian-forecast-scope`、`sinian-demand-baseline` 和 `sinian-forecast-review`；不要使用猜测的 `gea-demand-forecast`。技能目录没有的名称应报告缺失，不能反复猜名重试。
+
+MCP 返回 resource_link 时，使用该服务已提供的资源读取工具读取完整 URI。未取得正文前不能声称已核对数据，也不要重复执行相同查询来代替读取。没有读取工具时明确报告能力缺口。用户用中文提问时，进度与结果使用中文。
